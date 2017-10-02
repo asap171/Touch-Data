@@ -448,7 +448,6 @@ public class TouchUI extends javax.swing.JFrame {
      * @throws Exception
      */
     public static void classify() throws IOException, Exception  {
-        // I've commented the code as best I can, at the moment.
         
         BufferedReader datafile = new BufferedReader(new FileReader(filename));
         
